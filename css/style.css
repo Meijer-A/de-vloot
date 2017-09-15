@@ -1,0 +1,116 @@
+*{
+  font-family: sans-serif;
+}
+h2{
+  margin-top: 0px;
+}
+body{
+  margin-top: 0px;
+  background-image: url(gfx/bg.png);
+  background-repeat: repeat-x;
+}
+main{
+  background-color: white;
+  margin-top: 0px;
+  width: 45%;
+  margin: auto;
+  height: 100vh;
+}
+header h1{
+  margin: 0px;
+}
+header p{
+
+}
+header{
+  padding-left: 15px;
+  padding-top: 5px;
+  background-image: url(gfx/header.jpg);
+  background-size: cover;
+  height: 263px;
+}
+nav{
+  margin-top: 150px;
+}
+a{
+  text-decoration: none;
+}
+#hoofd{
+  color: rgb(169,213,212)
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(169,213,212);
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+article{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+#float0{
+  float: left;
+  padding-right: 15px;
+}
+#float1{
+  float: left;
+  padding-right: 15px;
+}
+#float2{
+  float: right;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+#float3{
+  float: left;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+#float4{
+
+}
+#float5{
+
+}
+#float6{
+
+}
+#float7{
+
+}
+#float8{
+
+}
+#float9{
+
+}
+#float10{
+
+}
+#float11{
+
+}
+#float12{
+
+}
+.floatleft{
+  float: left;
+  padding-right: 15px;
+}
+.floatright{
+  float: right;
+  padding-left: 15px;
+}
