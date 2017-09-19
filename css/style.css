@@ -1,136 +1,163 @@
-*{
+* {
   font-family: sans-serif;
 }
-h2{
+
+h2 {
   margin-top: 0px;
 }
-article p{
-  color: rgb(50, 50, 50);
-}
-article h2{
-  color: rgb(50, 50, 50)
-}
-body{
+
+body {
   margin-top: 0px;
   background-image: url(gfx/bg.png);
   background-repeat: repeat-x;
 }
-main{
+
+main {
   background-color: white;
   margin-top: 0px;
   width: 50%;
   margin: auto;
   height: 100vh;
 }
-header h1{
-  margin: 0px;
-}
-header p{
-  margin-top: 0px;
-}
-header{
+/*header*/
+header {
   padding-left: 15px;
   padding-top: 5px;
   background-image: url(gfx/header.jpg);
   background-size: cover;
   height: 263px;
 }
-nav{
-  margin-top: 155px;
 
+header h1 {
+  margin: 0px;
 }
-a{
+
+header p {
+  margin-top: 0px;
+}
+/*nav*/
+nav {
+  margin-top: 155px;
+}
+
+a {
   text-decoration: none;
   font-size: 15px;
   padding-right: 10px;
 }
-#hoofd{
-  color: rgb(169,213,212)
-}
+
 a:link {
     color: white;
     text-decoration: none;
 }
+
 a:visited {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color: rgb(169,213,212);
     text-decoration: none;
 }
+
 a:active {
     color: white;
     text-decoration: none;
 }
-
-article{
+/*article*/
+article {
   padding: 15px 15px 0px 15px;
 }
-#float0{
+
+article p {
+  color: rgb(50, 50, 50);
+}
+
+article h2 {
+  color: rgb(50, 50, 50)
+}
+
+#hoofd {
+  color: rgb(169,213,212)
+}
+
+#float0 {
   float: left;
   padding: 0px 15px 15px 0px
 }
-#float1{
+
+#float1 {
   width: 200px;
   height: auto;
   float: left;
   padding: 0px 15px 15px 0px;
 }
-#float2{
+
+#float2 {
   width: 200px;
   height: auto;
   float: right;
   padding: 15px 0px 15px 15px;
 }
-#float3{
+
+#float3 {
   width: 300px;
   height: auto;
   float: left;
   padding: 15px 15px 0px 0px;
 }
-#float4{
+
+#float4 {
   width: 200px;
   height: auto;
   float: left;
   padding: 0px 15px 15px 0px;
 }
-#float5{
+
+#float5 {
   width: 225px;
   height: auto;
   float: right;
   padding: 0px 0px 15px 15px;
 }
-#float6{
+
+#float6 {
   float: left;
   padding: 15px 15px 0px 0px;
 }
-#float7{
+
+#float7 {
   float: left;
   padding: 15px 15px 0px 0px;
 }
-#float8{
+
+#float8 {
   width: 200px;
   float: right;
   padding: 0px 0px 15px 15px;
 }
-#float9{
+
+#float9 {
   width: 200px;
   float: left;
   padding: 0px 15px 15px 0px;
 }
-#float10{
+
+#float10 {
   width: 200px;
   float: right;
   padding: 0px 0px 15px 15px;
 }
-#float11{
+
+#float11 {
   width: 175px;
   height: auto;
   float: left;
   padding: 0px 15px 15px 0px;
 }
-#float12{
+
+#float12 {
   width: 175px;
   height: auto;
   float: right;
