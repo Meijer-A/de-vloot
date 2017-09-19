@@ -4,6 +4,12 @@
 h2{
   margin-top: 0px;
 }
+article p{
+  color: rgb(50, 50, 50);
+}
+article h2{
+  color: rgb(50, 50, 50)
+}
 body{
   margin-top: 0px;
   background-image: url(gfx/bg.png);
@@ -12,7 +18,7 @@ body{
 main{
   background-color: white;
   margin-top: 0px;
-  width: 45%;
+  width: 50%;
   margin: auto;
   height: 100vh;
 }
@@ -20,7 +26,7 @@ header h1{
   margin: 0px;
 }
 header p{
-
+  margin-top: 0px;
 }
 header{
   padding-left: 15px;
@@ -30,10 +36,13 @@ header{
   height: 263px;
 }
 nav{
-  margin-top: 150px;
+  margin-top: 155px;
+
 }
 a{
   text-decoration: none;
+  font-size: 15px;
+  padding-right: 10px;
 }
 #hoofd{
   color: rgb(169,213,212)
@@ -56,61 +65,74 @@ a:active {
 }
 
 article{
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
+  padding: 15px 15px 0px 15px;
 }
 #float0{
   float: left;
-  padding-right: 15px;
+  padding: 0px 15px 15px 0px
 }
 #float1{
+  width: 200px;
+  height: auto;
   float: left;
-  padding-right: 15px;
+  padding: 0px 15px 15px 0px;
 }
 #float2{
+  width: 200px;
+  height: auto;
   float: right;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0px 15px 15px;
 }
 #float3{
+  width: 300px;
+  height: auto;
   float: left;
-  padding-right: 15px;
-  padding-top: 15px;
+  padding: 15px 15px 0px 0px;
 }
 #float4{
-
+  width: 200px;
+  height: auto;
+  float: left;
+  padding: 0px 15px 15px 0px;
 }
 #float5{
-
+  width: 225px;
+  height: auto;
+  float: right;
+  padding: 0px 0px 15px 15px;
 }
 #float6{
-
+  float: left;
+  padding: 15px 15px 0px 0px;
 }
 #float7{
-
+  float: left;
+  padding: 15px 15px 0px 0px;
 }
 #float8{
-
+  width: 200px;
+  float: right;
+  padding: 0px 0px 15px 15px;
 }
 #float9{
-
+  width: 200px;
+  float: left;
+  padding: 0px 15px 15px 0px;
 }
 #float10{
-
+  width: 200px;
+  float: right;
+  padding: 0px 0px 15px 15px;
 }
 #float11{
-
+  width: 175px;
+  height: auto;
+  float: left;
+  padding: 0px 15px 15px 0px;
 }
 #float12{
-
-}
-.floatleft{
-  float: left;
-  padding-right: 15px;
-}
-.floatright{
+  width: 175px;
+  height: auto;
   float: right;
-  padding-left: 15px;
+  padding: 15px 0px 0px 15px;
 }
